@@ -14,8 +14,8 @@ by Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He and Piotr Dollár.
 3) Optionally, install `pycocotools` if you want to train / test on the MS COCO dataset by running `pip install --user git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI`.
 
 ## Testing
-An example of testing the network can be seen in [this Notebook](https://github.com/UW-NextGen/NextGenRetinaNet/blob/master/keras-retinanet/examples/ResNet50RetinaNet.ipynb
-https://github.com/UW-NextGen/NextGenRetinaNet/blob/master/keras-retinanet/examples/SingleTypePerformanceAnalysis.ipynb).
+An example of testing the network can be seen in [this Notebook](https://github.com/UW-NextGen/NextGenRetinaNet/blob/master/keras-retinanet/examples/ResNet50RetinaNet.ipynb)
+An example of generating recall and precision can be seen in [this Notebook](https://github.com/UW-NextGen/NextGenRetinaNet/blob/master/keras-retinanet/examples/SingleTypePerformanceAnalysis.ipynb).
 In general, inference of the network works as follows:
 ```python
 boxes, scores, labels = model.predict_on_batch(inputs)
